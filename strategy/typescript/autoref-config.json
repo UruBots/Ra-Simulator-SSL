@@ -1,0 +1,24 @@
+{
+    "autoref": {
+        "enabled": true,
+        "strategy_file": "strategy/typescript/autoref/init.ts",
+        "entry_point": "AutoRef",
+        "debug_mode": true,
+        "settings": {
+            "field_margin_meters": 0.05,
+            "min_distance_free_kick_meters": 0.5,
+            "double_touch_timeout_seconds": 0.5,
+            "free_kick_timeout_div_a_seconds": 5.0,
+            "free_kick_timeout_div_b_seconds": 10.0
+        }
+    },
+    "internal_game_controller": {
+        "enabled": true,
+        "auto_continue": true,
+        "division": "A"
+    },
+    "internal_referee": {
+        "enabled": true,
+        "use_internal_autoref": true
+    }
+}
