@@ -112,5 +112,3 @@ We are currently working on implementing:
 
 ## 📄 License
 This project is licensed under the GPL-3.0 License - see the [COPYING](COPYING) file for details.
-
-Developed with ❤️ by **URUBots**.
